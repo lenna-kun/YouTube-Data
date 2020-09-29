@@ -6,7 +6,7 @@ Python3をインストールしてください．
 
 プログラムを実行する前に，プロジェクトの認証資格情報を設定する必要があります．:
 
-1. [Google API Console](https://console.developers.google.com/)にアクセスし， ***<font color=#bbddff>プロジェクトを作成</font>*** する．
+1. [Google API Console](https://console.developers.google.com/)にアクセスし，YouTubeチャンネルと紐付いたGoogleアカウントでログインし， ***<font color=#bbddff>プロジェクトを作成</font>*** する．
 2. サイドバーから ***<font color=#bbddff>[ライブラリ]</font>*** ページに行き， *"YouTube"* と検索窓に入力する． ***<font color=#ff0050>YouTube Data API v3</font>*** と ***<font color=#ff0050>YouTube Analytics API</font>*** をそれぞれ有効にする．
 3. サイドバーから ***<font color=#bbddff>[OAuth 同意画面]</font>*** ページに行き，アプリケーション名（ *"YouTube-API"* など）およびメールアドレスを入力後， ***<font color=#bbddff>保存</font>*** ボタンを押す．
 4. サイドバーから ***<font color=#bbddff>[認証情報]</font>*** ページに行き， ***<font color=#bbddff>+認証情報を作成</font>*** を押し， ***<font color=#bbddff>OAuth クライアント ID</font>*** ボタンを押す．
@@ -58,7 +58,7 @@ python3 main.py
 
 Windowsの場合は，`python3`を`python`に置き換えて実行してください．
 
-最初の実行時には，ブラウザが開き，Googleから認証を求められるので，許可してください．
+最初の実行時には，ブラウザが開き，Googleから認証を求められるので，YouTubeチャンネルと紐付いたGoogleアカウントを選択し，許可してください．
 
 # 6. 実行結果
 
